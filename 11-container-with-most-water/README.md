@@ -24,6 +24,7 @@
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
+solved this using C++ and with no errors
 
 <ul>
 	<li><code>n == height.length</code></li>
