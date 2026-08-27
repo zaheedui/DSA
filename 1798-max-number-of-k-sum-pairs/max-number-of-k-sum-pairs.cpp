@@ -22,7 +22,8 @@ public:
         // }
 
         // return ans;
-
+        ios::sync_with_stdio(false);
+cin.tie(nullptr);
         unordered_map<int,int> count;
         int ans=0;
 
