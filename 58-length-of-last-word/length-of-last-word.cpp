@@ -9,14 +9,21 @@ public:
         i--;
         }
         
+while(i>=0 && s[i]!=' '){
+    ans++;
+    i--;
+}
 
-        
-
-        while(i>=0 && s[i]!=' '){
-            ans++;
-            i--;
-        }
-
+ // Second approach        
+// while(i>=0){
+//         if(s[i]!=' '){
+//             ans++;
+            
+//         }else if(ans>0){
+//             break;
+//         }
+//         i--;
+// }
         return ans;
     }
 };
